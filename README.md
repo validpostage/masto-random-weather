@@ -8,3 +8,5 @@ Requires a corresponding `secrets.py` file with the following information:
   mastodon_api_base_url = "https://some.mastodon.instance/"
   mastodon_client_access_token = "token"
   ```
+
+_Implementation: https://social.validpostage.com/@GreenBeanWeather_
