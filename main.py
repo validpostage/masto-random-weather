@@ -42,7 +42,7 @@ class Location:
 
         weather_response = requests.get(query_url).json()
 
-        if weather_response["cod"] != "404":
+        if weather_response["cod"] == "200":
             self.weather_short_description = weather_response["weather"][0]["description"]
 
             temp = round(weather_response["main"]["temp"])
